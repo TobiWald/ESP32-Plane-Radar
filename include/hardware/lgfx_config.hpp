@@ -37,7 +37,7 @@ public:
   cfg.pin_bl = static_cast<int>(config::kDisplayPinBl);
   cfg.invert = false;
   cfg.freq = 44100;
-  cfg.pwm_channel = 7;
+  cfg.pwm_channel = 0;
   _light.config(cfg);
   _panel.setLight(&_light);
 }
