@@ -35,6 +35,7 @@ constexpr gpio_num_t kDisplayPinCs = GPIO_NUM_10;
 constexpr gpio_num_t kDisplayPinDc = GPIO_NUM_2;
 constexpr gpio_num_t kDisplayPinMosi = GPIO_NUM_7;  // display SDA
 constexpr gpio_num_t kDisplayPinSclk = GPIO_NUM_6;  // display SCL
+constexpr gpio_num_t kDisplayPinBl = GPIO_NUM_3;   // display backlight
 
 
 constexpr int kDisplayWidth = 240;
